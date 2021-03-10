@@ -20,3 +20,10 @@ A step-by-step guide of the Scala and Functional Programming course (Rock the JV
 ## 2. The Absolute Scala Basics
 
 ### 2.1. Values, Variables and Types
+  ![img.png](images/valuesVariablesAndTypes.png)
+
+### 2.2. Expressions
+- Everything in Scala is an expression: operators, ifs, code blocks,...
+- The value of the code block is the value of its last expression.
+- Instructions are executed (like in Java), expressions are evaluated (Scala).
+
