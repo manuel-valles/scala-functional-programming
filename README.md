@@ -2,9 +2,21 @@
 
 A step-by-step guide of the Scala and Functional Programming course (Rock the JVM).
 
-1. Getting Started!
+## 1. Getting Started!
 
-![createScalaProjectStep1](images/createScalaProjectStep1.png)
-![createScalaProjectStep2](images/createScalaProjectStep2.png)
+- To create a new Scala project, use the IDEA - based Scala project:
 
-2. The Absolute Scala Basics
+  ![createScalaProjectStep1](images/createScalaProjectStep1.png)
+  ![createScalaProjectStep2](images/createScalaProjectStep2.png)
+
+- To add the Scala plugin, use the Marketplace tab to browse and install it.
+
+  ![scalaPlugin](images/scalaPlugin.png)
+
+- To add the Scala library to an existing project, add it in the Project Structure:
+
+  ![scalaLibrary](images/scalaLibrary.png)
+
+## 2. The Absolute Scala Basics
+
+### 2.1. Values, Variables and Types
