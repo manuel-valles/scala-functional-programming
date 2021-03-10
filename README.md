@@ -20,7 +20,12 @@ A step-by-step guide of the Scala and Functional Programming course (Rock the JV
 ## 2. The Absolute Scala Basics
 
 ### 2.1. Values, Variables and Types
-  ![img.png](images/valuesVariablesAndTypes.png)
+- Values: Immutable with a name and type (can be inferred).
+- Variables: Mutable.
+- Prefer als over vars.
+- All vals and vars have types.
+- Compiler automatically infers types when omitted.
+- Basic types: Boolean, Int, Long, Double, String.
 
 ### 2.2. Expressions
 - Everything in Scala is an expression: operators, ifs, code blocks,...
