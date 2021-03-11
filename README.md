@@ -47,4 +47,8 @@ A step-by-step guide of the Scala and Functional Programming course (Rock the JV
   - Expression is passed literally;
   - Expression is evaluated every time/use.
 
+### 2.6. Default and Named Arguments
+- You can set default values, and omitted them when the function is called.
+- You cannot omit leading default values, unless you name them (even in a different order).  
+
 
