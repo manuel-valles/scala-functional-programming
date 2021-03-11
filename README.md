@@ -39,4 +39,12 @@ A step-by-step guide of the Scala and Functional Programming course (Rock the JV
 - When you need loops, use tail recursion.
 - You need as many accumulators as recursive calls you have in a tail recursive function.
 
+### 2.5. Call by Value Vs Call by Name
+- Call by value:
+  - Value is computed before the call;
+  - Same value used everywhere.
+- Call by name:
+  - Expression is passed literally;
+  - Expression is evaluated every time/use.
+
 
