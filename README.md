@@ -35,4 +35,8 @@ A step-by-step guide of the Scala and Functional Programming course (Rock the JV
 ### 2.3. Functions
 - When you need loops, use recursion (No imperative code!).
 
+### 2.4. Recursion
+- When you need loops, use tail recursion.
+- You need as many accumulators as recursive calls you have in a tail recursive function.
+
 
