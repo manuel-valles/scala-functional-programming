@@ -32,3 +32,7 @@ A step-by-step guide of the Scala and Functional Programming course (Rock the JV
 - The value of the code block is the value of its last expression.
 - Instructions are executed (like in Java), expressions are evaluated (Scala).
 
+### 2.3. Functions
+- When you need loops, use recursion (No imperative code!).
+
+
