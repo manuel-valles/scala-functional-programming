@@ -51,4 +51,8 @@ A step-by-step guide of the Scala and Functional Programming course (Rock the JV
 - You can set default values, and omitted them when the function is called.
 - You cannot omit leading default values, unless you name them (even in a different order).  
 
+### 2.7. Smart Operations on Strings
+- For formatted strings, similar to printf, you will expand the value with the expected format, e.g. %2.2f will be 2 
+  characters total and 2 decimals precision.  
+- The raw interpolator performs no escaping of literals within the string.
 
