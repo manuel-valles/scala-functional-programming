@@ -62,3 +62,19 @@ A step-by-step guide of the Scala and Functional Programming course (Rock the JV
 - Defining a class with parameters (constructor) and methods (functions/def).
 - Instantiating a class with the keyword 'new'.
 - A class parameter can become a class field with the keyword 'val'.
+
+### 3.2. Method Notations
+- **Infix/operator** and **Postfix** notations are syntactic sugar that only works with methods with single parameters: 
+  - Infix:
+      - mary.likes("Inception") == mary likes "Inception".
+      - mary.+(tom) == mary + tom
+  - Postfix:
+      - mare.isAlive == mary isAlive
+- **Prefix** notation is another syntactic sugar about unary operators (unary_) that only works with **- + ~ !**
+  - 1.unary_- == -1
+  - You must leave a whitespace between the unary operator and the colon, otherwise it would include it as part of it:
+    - `def unary_! : String = s"$name, what the heck?!"`
+- All operators are methods: 1 + 2 == 1.+(2)
+- **Apply** is a method that Scala delegates when a class is call as a method:
+  - `def apply(): String = s"Hi, my name is $name and I like $favoriteMovie"`
+  - mary.apply() == mary()
