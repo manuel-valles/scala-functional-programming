@@ -95,3 +95,24 @@ A step-by-step guide of the Scala and Functional Programming course (Rock the JV
 - **Scala applications** are Scala objects with:
   - the main method: `def main(args: Array[String]): Unit`
   - or extending the App type: `object MyApp extends App`
+
+### 3.4. Inheritance
+- Single class inheritance allows using non-private properties and methods of a super class in a subclass.
+- Access modifiers:
+  - _Public_: accessible everywhere (default);
+  - _Private_: accessible only within the class;
+  - _Protected_: accessible also within the subclasses (not outside!);
+- JVM calls the parent class first what forces the extended superclass to have/pass the correct parameters.
+- **Overriding** supplies different implementation in the right classes. It works for vars, values and methods using the 
+  keyword `override`.
+- **Overloading** supplies multiple methods with different signature with the same name within the same class.
+- **Type substitution**, broadly called polymorphism through inheritance, decides the behavior runtime on which object is 
+  being called instead of by which reference it is being called. It goes to the more overridden version.
+- **Super** lets reference a method, or a field from a parent class. e.g.: `super.eat`.
+- There are three ways of preventing overrides:
+  - use `final` on a member;
+  - use `final` on the entire class;
+  - `seal` a class. 
+
+
+  
