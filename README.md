@@ -78,3 +78,20 @@ A step-by-step guide of the Scala and Functional Programming course (Rock the JV
 - **Apply** is a method that Scala delegates when a class is call as a method:
   - `def apply(): String = s"Hi, my name is $name and I like $favoriteMovie"`
   - mary.apply() == mary()
+
+### 3.3. Scala Objects
+- In OOP, class-level functionality is the one that doesn't depend on the instance of a class.
+- Scala does NOT have class-level functionality ("static"). It has something, even better, called Scala Object that has a 
+  static-like functionality.
+- Scala objects can have val, vars and methods but do not receive parameters. 
+- Scala objects are singleton instance by definition (type + its only instance):
+  ```scala
+    object Person { val N_EYES = 2 }
+    val mary = Person
+    val john = Person
+    println(mary == john) // true
+  ```
+- **Companions** is a pattern used to name object and class equally in the same scope.
+- **Scala applications** are Scala objects with:
+  - the main method: `def main(args: Array[String]): Unit`
+  - or extending the App type: `object MyApp extends App`
