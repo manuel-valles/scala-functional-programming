@@ -56,3 +56,9 @@ A step-by-step guide of the Scala and Functional Programming course (Rock the JV
   characters total and 2 decimals precision.  
 - The raw interpolator performs no escaping of literals within the string.
 
+## 3. Object-Oriented Programming in Scala
+
+### 3.1. OOP Basics
+- Defining a class with parameters (constructor) and methods (functions/def).
+- Instantiating a class with the keyword 'new'.
+- A class parameter can become a class field with the keyword 'val'.
