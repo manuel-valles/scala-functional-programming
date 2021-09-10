@@ -114,5 +114,23 @@ A step-by-step guide of the Scala and Functional Programming course (Rock the JV
   - use `final` on the entire class;
   - `seal` a class. 
 
+### 3.5. Abstract Classes and Traits
+- In Java, an **abstract class** is a class that is declared `abstract`:
+  - May or may not include abstract methods;
+  - Cannot be instantiated, but they can be subclassed;
+  - May have static fields and static methods.
+- You only need to use an abstract class in Scala when:
+  - You want to create a base class that requires constructor arguments;
+  - Your Scala code will be called from Java code.
+- **Traits** are used to share interfaces and fields between classes. They are similar to Java 8's interfaces. 
+  Classes and objects can extend traits, but traits cannot be instantiated and therefore have no parameters.
+- Traits vs abstract classes:
+  - Traits do not have constructor parameters;
+  - Multiple traits may be  inherited by the same class;
+  - Traits describe the 'behavior' and abstract classes describe 'things'.
+- In Scala, all values have a type, including numerical values and functions. The diagram below illustrates a subset of 
+  the type hierarchy:
+  
+![scalaTypeHierarchy](images/scalaTypeHierarchy.png)
 
   
